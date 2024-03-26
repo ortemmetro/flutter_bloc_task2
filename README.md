@@ -1,16 +1,27 @@
 # flutter_bloc_task2
 
-A new Flutter project.
+Task for newbies in Flutter. Task contains usage of Bloc, GetIt, Dio and AutoRoute.
 
-## Getting Started
+# Task
 
-This project is a starting point for a Flutter application.
+You need to create a product app using this api: [link](https://dummyjson.com/).
+Use products api only, you do not need others.
 
-A few resources to get you started if this is your first Flutter project:
+## Home page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+First page that you need to work with is Home page. There should be all types of products and horizontal list of them. For example, title "Phones" and below the title list of phone products and so on for every product type.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+When you tap on product you should navigate to ProductPage.
+
+## Search Page
+
+Search page is second page in the app where you should implement searching using api requests.
+
+## Product page
+
+And the last one is Product page. Page which contains all information about the product: carousel of images, price, name, description, etc.
+
+And that's it. In every dart class I've written some hints and tips for you.
+Don't miss them.
+
+Good luck!
