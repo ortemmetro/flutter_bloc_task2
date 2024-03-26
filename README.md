@@ -21,6 +21,8 @@ Search page is second page in the app where you should implement searching using
 
 And the last one is Product page. Page which contains all information about the product: carousel of images, price, name, description, etc.
 
+## Conclusion
+
 And that's it. In every dart class I've written some hints and tips for you.
 Don't miss them.
 
