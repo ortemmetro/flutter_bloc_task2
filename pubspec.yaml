@@ -1,0 +1,38 @@
+name: flutter_bloc_task2
+description: "Flutter Bloc Task 2"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # State management
+  flutter_bloc: ^8.1.5
+
+  # Network
+  dio: ^5.4.1
+
+  # Routing
+  auto_route: ^8.0.0
+
+  # Utility
+  json_serializable: ^6.7.1
+  json_annotation: ^4.8.1
+  get_it: ^7.6.7
+  cached_network_image: ^3.3.1
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  auto_route_generator: ^8.0.0
+
+flutter:
+  uses-material-design: true
